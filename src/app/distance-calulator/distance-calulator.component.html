@@ -1,0 +1,33 @@
+<h3>Distance Calculator Example:</h3>
+<!-- <div id="viewDiv" ngModel #viewDivRef>
+  <div class="toolBarDiv">
+
+    <button class="squareButton" ngModel #distance>1</button>
+    <button class="squareButton" ngModel #area>2</button>
+    <button class="squareButton" ngModel #clear>3</button>
+  </div>
+</div> -->
+
+
+<div id="viewDiv"  ngModel #viewDivRef></div>
+
+<div ngModel #viewDivRef id="toolbarDiv" class="esri-component esri-widget">
+  <button
+   ngModel #distance
+    id="distance"
+    class="esri-widget--button esri-interactive esri-icon-measure-line"
+    title="Distance Measurement Tool"
+  ></button>
+  <button
+   ngModel #area
+    id="area"
+    class="esri-widget--button esri-interactive esri-icon-measure-area"
+    title="Area Measurement Tool"
+  ></button>
+  <button
+   ngModel #clear
+    id="clear"
+    class="esri-widget--button esri-interactive esri-icon-trash"
+    title="Clear Measurements"
+  ></button>
+</div>

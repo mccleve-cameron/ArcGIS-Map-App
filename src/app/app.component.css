@@ -1,0 +1,21 @@
+/* import the required JSAPI css */
+/* @import url('https://js.arcgis.com/4.12/esri/css/main.css'); */
+@import url('https://js.arcgis.com/4.26/esri/themes/light/main.css');
+
+
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 50vw;
+  width: 100%;
+}
+
+.mainWrapper{
+  padding: 5vw;
+}
+
+.component{
+margin-top: 5vw;
+}

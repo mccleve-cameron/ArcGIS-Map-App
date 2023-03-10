@@ -1,0 +1,16 @@
+<div>
+  <form>
+    <div>
+      <label for="point1">Point 1:</label>
+      <input type="text" id="point1" [(ngModel)]="point1">
+    </div>
+    <div>
+      <label for="point2">Point 2:</label>
+      <input type="text" id="point2" [(ngModel)]="point2">
+    </div>
+    <div>
+      <button type="submit" (click)="calculateDistance()">Calculate Distance</button>
+    </div>
+  </form>
+</div>
+
